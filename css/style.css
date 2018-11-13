@@ -1,0 +1,150 @@
+a { 
+	text-decoration: none;
+}
+.main-header {
+	margin-bottom: 10px;
+}
+
+.button{ 
+	background:#00bfff;
+	color:black;
+	padding: 15px 30px;
+}
+
+.button:hover {
+	background:#00ffff;
+	color: black;
+}
+ 
+#pick-me {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+	font-family: showcard gothic;
+}
+
+.showcase {
+	margin-bottom: 10px;
+	padding: 300px;
+	background-image: url(../images/wanderer.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: bottom;
+	box-shadow: 5px 5px 5px #fff;
+	border: solid;
+}
+
+.main-article {
+    margin-bottom: 50px;
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 4fr 1fr;
+}
+
+.main-article-left {
+    grid-column: 1/2;
+    background:#afeeee;
+    padding: 40px;
+    display:grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 0 20px #4682b4;
+    text-align: justify;
+    border: ridge;
+
+}
+.imukki22{
+    box-shadow: 0 0 10px #000;
+    border-style: dotted;
+
+}
+.main-article-left h2 {
+	margin-top: 30px;
+	font-family: kathen;
+	text-align: center;
+
+}
+
+.main-article-left p1 {
+    margin: 20px 0 40px 0;
+    font-family: verdana;
+
+}
+.main-article-left p {
+    margin: 20px 0 40px 0;
+    font-family: verdana;
+
+}
+
+.button1 {
+ 	background:#8b8b83;
+	color:black;
+	padding: 10px 30px;
+	border:solid;
+	font-family: impact;
+}
+
+.button1:hover{
+	background:#00ffff;
+	color: black;
+	border: solid;
+	font-family: college;
+}
+	
+.main-article-left div{
+    margin-left: -30px;
+    padding: 20;
+
+}
+
+.main-article-right {
+	text-align: center;
+	background: #6495ed;
+    box-shadow: 0 0 15px #87ceeb;
+
+ }
+.grapes {
+	box-shadow: 0 0 10px #000;
+    border-style: dotted;
+}
+.main-article-right h3{
+	margin-top: 30px;
+	text-align: center;
+	font-family: kathen;
+	color: white;
+
+}
+
+.main-article-right p{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: comic sans;
+
+}
+
+.footer {
+    background: #5f9ea0;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+.footer p {
+    font-family: tahoma;
+
+}
+.footer:hover {
+    background:#b0c4de;
+	color; #f0e68c;
+
+}
+
+
+
