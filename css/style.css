@@ -127,6 +127,9 @@ a {
     font-family: comic sans;
 
 }
+.main-article-right img{
+	margin-top: 20px;
+}
 
 .footer {
     background: #5f9ea0;
